@@ -2,11 +2,11 @@
 
 ## Candidate
 
-- **Name:** <MOHIT KUNDU>
-- **Email:** <mohitkundu2003@gmail.com>
-- **GitHub:** <(https://github.com/Mohitkundu360)>
+- **Name:** Mohit Kundu
+- **Email:** mohitkundu2003@gmail.com
+- **GitHub:** https://github.com/Mohitkundu360/webhook-retry-engine
 - **Selected problem:** Problem 2 — Webhook Retry Engine
-- **Demo video:** <FILL IN — link near top, per instructions>
+- **Demo video:** https://www.loom.com/share/039d7f5412594e9aa2faefae34f61806
 
 ## Run the project
 
