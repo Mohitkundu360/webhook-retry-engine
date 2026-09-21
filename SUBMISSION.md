@@ -7,6 +7,7 @@
 - **GitHub:** https://github.com/Mohitkundu360/webhook-retry-engine
 - **Selected problem:** Problem 2 — Webhook Retry Engine
 - **Demo video:** https://www.loom.com/share/039d7f5412594e9aa2faefae34f61806
+- **Live demo:** https://webhook-retry-engine.onrender.com (receiver: https://webhook-demo-receiver.onrender.com)
 
 ## Run the project
 
@@ -209,6 +210,7 @@ a push-based worker. For this exercise's scale that's an acceptable, explicit tr
 - Tests use an in-memory-equivalent (temp-file) SQLite database per test and a fake HTTP
   transport (`httpx.MockTransport`); nothing touches the real network or a real receiver
   process.
+- A live demo is deployed on Render's free tier (see link above). Free instances spin down after 15 minutes idle (first request after that takes ~30-60s to wake up) and have an ephemeral filesystem, so stored events reset on every redeploy or restart — this is a hosting-tier limitation, not an application bug. Verified working end-to-end on this deployment: successful delivery, retry-then-succeed, bounded failure to a genuinely unreachable host, and idempotent resubmission.
 
 ## Production and scale
 
