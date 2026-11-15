@@ -1,5 +1,7 @@
 # Webhook Retry Engine
 
+![CI](https://github.com/Mohitkundu360/webhook-retry-engine/actions/workflows/ci.yml/badge.svg)
+
 Caygnus Product Engineering Challenge — Problem 2. Accepts an event, delivers it to one
 configured webhook endpoint, retries bounded temporary failures, and keeps an inspectable,
 ordered attempt history. Ingestion is idempotent on the caller-supplied `eventId`.
